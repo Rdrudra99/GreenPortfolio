@@ -2,7 +2,6 @@
 /* @import url(//db.onlinewebfonts.com/c/dc2e22aeb9024b30a058c690a7f9f7ba?family=Agustina); */
 *{
   font-family:'Montserrat';
-  /* border: 1px solid black; */
 }
 #logo{
   font-family: Agustina Regular;
@@ -88,4 +87,10 @@ input:checked + .slider:before {
 .paragraph{
   font-size:10px ;
   padding-top: 10px;
+}
+
+/* Scroll Active Sticky Navigation Bar */
+
+.scroll-down header {
+  transform: translate3d(0,-100%,0);
 }
