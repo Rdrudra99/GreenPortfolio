@@ -16,7 +16,7 @@
 .nav-item a{
     color: black;
   }
-
+ 
 /* SWITCH BUTTON */
 /* The switch - the box around the slider */
 .switch {
@@ -94,3 +94,4 @@ input:checked + .slider:before {
 .scroll-down header {
   transform: translate3d(0,-100%,0);
 }
+
