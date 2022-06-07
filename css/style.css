@@ -7,12 +7,7 @@
   font-family: Agustina Regular;
   
 }
-/* @font-face {
-  font-family: 'Agustina Regular';
-  font-style: normal;
-  font-weight: bold;
-  src: local('Agustina Regular'), url('Agustina.woff') format('woff');
-  } */
+
 .nav-item a{
     color: black;
   }
@@ -82,6 +77,45 @@ input:checked + .slider:before {
 }
 
 /* NavBar end Form Here */
+
+
+/* hero section */
+#head{
+  font-size: 60px;
+  font-weight: 650;
+}
+
+@media only screen and (max-width:576px) {
+  #head{
+    font-size: 33px;
+  }
+  #tail{
+    font-size: 15px;
+  }
+}
+
+
+/* next skill */
+#second_col{
+  z-index: 99;
+}
+
+/* heading */
+.heading{
+  font-size: 50px;
+  font-weight: 600;
+}
+/* education */
+
+
+
+
+
+
+
+
+
+
 
 
 .paragraph{
