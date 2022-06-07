@@ -3,6 +3,9 @@
 *{
   font-family:'Montserrat';
 }
+html{
+  scroll-behavior: smooth;
+}
 #logo{
   font-family: Agustina Regular;
   
@@ -129,4 +132,3 @@ input:checked + .slider:before {
 .scroll-down header {
   transform: translate3d(0,-100%,0);
 }
-
