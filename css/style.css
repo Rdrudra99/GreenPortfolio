@@ -1,78 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url(//db.onlinewebfonts.com/c/dc2e22aeb9024b30a058c690a7f9f7ba?family=Agustina);
-*{
-  font-family:'Montserrat';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('http://fonts.cdnfonts.com/css/agustina');
+@import url('http://fonts.cdnfonts.com/css/cocobiker');
+@import url('http://fonts.cdnfonts.com/css/raven-serif-nbp');
+
+/* font-family: 'CocoBikeR', sans-serif; */
+/* font-family: 'Raven Serif NBP', sans-serif; */
+/* font-family: 'Raven Sans NBP', sans-serif; */
+
+
+* {
+  font-family: "Montserrat";
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-#logo{
-  font-family: Agustina Regular;
-  
+
+#logo {
+  font-family: 'Agustina', sans-serif;
 }
 
-.nav-item a:hover{
-    color: green !important;
-  }
-
-
+.nav-item a:hover {
+  color: green !important;
+}
 
 /* hero section */
-#head{
+#head {
   font-size: 60px;
   font-weight: 650;
+  font-family: 'CocoBikeR', sans-serif;
+
 }
 
-@media only screen and (max-width:576px) {
-  #head{
+@media only screen and (max-width: 576px) {
+  #head {
     font-size: 33px;
     font-weight: 650;
   }
-  #tail{
+
+  #tail {
     font-size: 15px;
   }
 }
 
-
 /* next skill */
-#second_col{
+#second_col {
   z-index: 99;
 }
 
 /* heading */
-.heading{
+.heading {
   font-size: 50px;
   font-weight: 600;
+  font-family: 'CocoBikeR', sans-serif;
 }
+
 /* education */
 
-.paragraph{
-  font-size:10px ;
+.paragraph {
+  font-size: 10px;
   padding-top: 10px;
 }
 
 /* Scroll Active Sticky Navigation Bar */
 
 .scroll-down header {
-  transform: translate3d(0,-100%,0);
-}
-/* Preloader */
-.wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
+  transform: translate3d(0, -100%, 0);
 }
 
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
+
+
